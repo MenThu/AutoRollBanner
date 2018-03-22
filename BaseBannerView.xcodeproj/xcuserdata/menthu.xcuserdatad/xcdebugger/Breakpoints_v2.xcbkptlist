@@ -4,18 +4,28 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BaseBannerView/AutoRollBanner/AutoRollBanner.m"
-            timestampString = "542542258.202199"
+            filePath = "BaseBannerView/WaterfallFlow/WaterFallLayout.m"
+            timestampString = "543401141.427888"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "158"
-            endingLineNumber = "158"
-            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "-collectionViewContentSize"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,45 +35,45 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BaseBannerView/AutoRollBanner/AutoRollBanner.m"
-            timestampString = "542542258.202632"
+            filePath = "BaseBannerView/WaterfallFlow/WaterFallLayout.m"
+            timestampString = "543401141.428751"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
-            landmarkName = "-isCollectionViewContentSizeRight"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "-layoutAttributesForElementsInRect:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BaseBannerView/AutoRollBanner/AutoRollBanner.m"
-            timestampString = "542542258.202897"
+            filePath = "BaseBannerView/WaterFallController.m"
+            timestampString = "543401141.42919"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "191"
-            endingLineNumber = "191"
-            landmarkName = "-collectionView:numberOfItemsInSection:"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BaseBannerView/AutoRollBanner/AutoRollBanner.m"
-            timestampString = "542542258.203156"
+            filePath = "BaseBannerView/WaterfallFlow/WaterFallLayout.m"
+            timestampString = "543401141.429617"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
-            landmarkName = "-setBannerSource:"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-setLayoutModel:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

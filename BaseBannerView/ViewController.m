@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AutoRollBanner.h"
+#import "WaterFallController.h"
 
 @interface ViewController ()
 
@@ -30,12 +31,15 @@
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     NSLog(@"viewDidAppear");
-    [self.bannerView isRollBegin:YES];
+//    [self.bannerView isRollBegin:YES];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    self.currentState = !self.currentState;
-    [self.bannerView isRollBegin:self.currentState];
+//    self.currentState = !self.currentState;
+//    [self.bannerView isRollBegin:self.currentState];
+    
+    WaterFallController *controller = [[WaterFallController alloc] init];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 
