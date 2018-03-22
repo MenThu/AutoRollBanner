@@ -15,6 +15,11 @@
 
 /**
  *  利用数据源计算瀑布流所需要的信息
+ *  dataArray 数据源
+ *  width 视图的宽度
+ *  delegate 计算宽度的代理
+ *  height 单元格的高度
+ *  cellMaxWidth 单元格的最大宽度
  */
 - (WaterFallLayoutModel *)getLayoutModel:(NSArray *)dataArray
                                viewWidth:(CGFloat)width
